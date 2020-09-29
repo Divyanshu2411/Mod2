@@ -1,0 +1,79 @@
+body
+{
+    font-family: cursive;
+    padding: 10px;
+}
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    font-size:175%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 7vh;
+}
+.first, .Second, .Third
+{
+    background-color: #67a3c5bd;
+    width:32%;
+    border: 1px solid #000;
+    float: left;
+    margin:1vh;
+    border-radius: 1em;
+    position: relative;
+    padding: 1%;
+}
+
+.head
+{
+    position: relative;
+    right:0px;
+    top:0px;
+    font-size: 125% ;
+    text-align: center;
+    width: 40%;
+    border: 3px solid black;
+    display: block;
+    margin:0;
+    margin-left: 60%;
+    padding: 1vh;
+    border-radius: 1em;
+
+
+}
+
+.first .head
+{
+    background-color: #ffecf4;
+    color: #003443;
+}
+
+.Second .head
+{
+    background-color: #ca52dade;
+    color: #0f5238;
+}
+
+.Third .head
+{
+    background-color: #8eda48de;
+    color: #050706;
+}
+
+@media screen and (max-width:991px)
+{
+    .first, .Second, .Third
+{
+    width:47%;
+}
+}
+
+@media screen and (max-width:767px)
+{
+    .first, .Second, .Third
+{
+    width:100%;
+}
+}
