@@ -2,6 +2,8 @@ body
 {
     font-family: cursive;
     padding: 10px;
+    background-color: black;
+    color:white
 }
 *
 {
@@ -62,6 +64,30 @@ header
     color: #050706;
 }
 
+.container
+{
+    color: #000;
+}
+section
+{
+    background-color: rgba(6, 82, 74, 0.397);
+}
+
+hr
+{
+    color: #050706;
+    height: 5px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+h2
+{
+    margin-bottom: 8vh;
+    margin-top:3vh;
+    color: #7f1fd4;
+}
 @media screen and (max-width:991px)
 {
     .first, .Second, .Third
